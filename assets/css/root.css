@@ -1,0 +1,63 @@
+:root {
+
+    --fs-xs: 14px;
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-xmd: 20px;
+    --fs-md: 25px;
+    --fs-lg: 35px;
+    --fs-xlg: 50px;
+
+    --color-darkblue: #0B132A;
+    --color-darkgrey: #4F5665;
+    --color-orange: #F53838;
+}
+
+/* font-size */
+.fs-14px {
+    font-size: var(--fs-xs);
+}
+
+.fs-16px {
+    font-size: var(--fs-xsm);
+}
+
+.fs-18px {
+    font-size: var(--fs-sm);
+}
+
+.fs-20px {
+    font-size: var(--fs-xmd);
+}
+
+.fs-25px {
+    font-size: var(--fs-md);
+}
+
+.fs-35px {
+    font-size: var(--fs-lg);
+}
+
+.fs-50px {
+    font-size: var(--fs-xlg);
+}
+
+/* colors */
+
+.darkblue {
+    color: var(--color-darkblue);
+}
+
+.darkgrey {
+    color: var(--color-darkgrey);
+}
+
+.orange {
+    color: var(--color-orange);
+}
+
+@media (max-width:1200px) {
+    :root {
+        --fs-xlg: 40px;
+    }
+}
