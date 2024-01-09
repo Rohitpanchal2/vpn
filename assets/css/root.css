@@ -58,6 +58,24 @@
 
 @media (max-width:1200px) {
     :root {
+        --fs-md: 25px;
+        --fs-lg: 35px;
         --fs-xlg: 40px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-md: 25px;
+        --fs-lg: 30px;
+        --fs-xlg: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-md: 20px;
+        --fs-lg: 25px;
+        --fs-xlg: 30px;
     }
 }

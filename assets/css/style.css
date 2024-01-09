@@ -15,7 +15,7 @@
 /* nav css */
 
 .line {
-    background-color: rgb(2, 34, 131);
+    background-color: #F53855;
     height: 4px;
     width: 100%;
     margin: 5px 0px;
@@ -88,12 +88,68 @@ header nav ul li a {
 }
 
 .shadow-box {
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FDFDFD;
     border-radius: 10px;
 }
 
 .shadow-box:hover {
-    box-shadow: 0 12px 16px 0 rgba(30, 30, 30, 0.24), 0 17px 50px 0 rgba(52, 50, 50, 0.19);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mw-383px {
+    max-width: 383.41px;
+}
+
+.mw-427px {
+    max-width: 430.88px;
+}
+
+.lh-30px {
+    line-height: 30px;
+}
+
+.lh-50px {
+    line-height: 50px;
+}
+
+.color-db {
+    color: #0B132A;
+}
+
+.bg-FAFAFA {
+    background-color: #FAFAFA;
+}
+
+.box-s-2 {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.box-s-2:hover {
+    border: 2px solid #F53855;
+    transition: linear 0.5s;
+}
+
+.select-btn {
+    border: 2px solid #F53855;
+    color: #F53855;
+    border-radius: 30px;
+    padding: 10px 60px;
+}
+
+.select-btn:hover {
+    background-color: #F53855;
+    color: #ffffff;
+    transition: linear 0.5s;
+}
+
+.mt-50 {
+    margin-top: 80px;
+}
+
+.mt-40 {
+    margin-top: 40px;
 }
 
 
@@ -145,4 +201,9 @@ header nav ul li a {
     .space {
         gap: 30px;
     }
+
+    .col-revrce {
+        flex-direction: column-reverse;
+    }
+
 }
