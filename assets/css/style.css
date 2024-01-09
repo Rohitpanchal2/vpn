@@ -108,10 +108,6 @@ header nav ul li a {
     line-height: 30px;
 }
 
-.lh-50px {
-    line-height: 50px;
-}
-
 .color-db {
     color: #0B132A;
 }
@@ -152,6 +148,47 @@ header nav ul li a {
     margin-top: 40px;
 }
 
+.mw-340px {
+    max-width: 340px;
+}
+
+footer div h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    color: #0B132A;
+}
+
+footer ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    color: #4F5665;
+}
+
+.f-icon:hover {
+    animation: icon 3s linear infinite;
+}
+
+.f-icon {
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.mw-447px {
+    max-width: 447.81px;
+}
+
+@keyframes icon {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
 
@@ -188,7 +225,7 @@ header nav ul li a {
         position: absolute;
     }
 
-    .icon {
+    .lable {
         height: 60px;
         width: 40px;
         cursor: pointer;
