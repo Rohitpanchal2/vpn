@@ -194,24 +194,29 @@ footer ul li a {
 
 .prew-brdr {
     border: 2px solid #F53855;
-    padding: 0px 17px;
-    color: #F53855;
+    padding: 15px;
     border-radius: 100%;
     cursor: pointer;
 }
 
-.prew-brdr:hover {
+:hover.prew-brdr path {
+    fill: white;
+}
+
+:hover.prew-brdr {
     background-color: #F53855;
-    color: #ffffff;
 }
 
 .next-brdr {
     border: 2px solid #F53855;
     background-color: #F53855;
-    color: #ffffff;
-    padding: 0px 17px;
+    padding: 15px;
     border-radius: 100%;
     cursor: pointer;
+}
+
+:hover.next-brdr path {
+    fill: #F53855;
 }
 
 .next-brdr:hover {
@@ -338,27 +343,5 @@ footer ul li a {
 
     .fd-column {
         flex-direction: column;
-    }
-}
-
-@media (max-width:576px) {
-    .next-brdr {
-        display: none !important;
-    }
-
-    .prev {
-        display: none !important;
-    }
-
-    .next {
-        display: none !important;
-    }
-
-    .prew-brdr {
-        display: none !important;
-    }
-
-    .trans-x {
-        transform: translateX(0);
     }
 }
